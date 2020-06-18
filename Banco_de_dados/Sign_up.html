@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "estilo_sign_up.css">
+</head>
+<body>
+
+<form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Crie sua conta</h1>
+          <p>Preencha as informações para criar sua conta.</p>
+          <hr>
+      
+          <label for="email"><b>E-mail USP</b></label>
+          <input type="text" placeholder="Digite seu e-mail" name="email USP" required>
+      
+          <label for="senha"><b>Senha</b></label>
+          <input type="password" placeholder="Digite sua senha" name="Senha" required>
+      
+          <label for="Confirmação de senha"><b>Confirme sua senha</b></label>
+          <input type="password" placeholder="Digite novamente a senha" name="Confirmação de senha" required>
+      <!--
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        -->
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancelar</button>
+            <button type="submit" class="signupbtn">Criar conta</button>
+          </div>
+        </div>
+      </form>
+</body>
